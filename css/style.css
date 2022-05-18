@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.element {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    border: 2px dashed #f00;
+    background-color: #0f0;
+}
+
+.text {
+    text-align: justify;
+}   
+
+.float {
+    float:left; 
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+    
+.float-two {
+    float:right; 
+    width: 150px;
+    margin: 20px 0 20px 20px;
+}
